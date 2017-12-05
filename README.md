@@ -1,8 +1,9 @@
 # Introduction-to-MongoDB
 Introduction to MongoDB by MongoDB Inc.
 
-#Week 1
-Objectifs d'apprentissage
+# Week 1 : Started with MongoDB & Basic Data Analysis
+
+## Learning objectives
 
 Create and connect to a MongoDB Atlas cluster from Python
 Import CSV data into a MongoDB cluster from the command-line
@@ -38,16 +39,16 @@ We're going to use Anacanoda to install Python 3 and to manage our Python enviro
 You'll want to create an Anaconda environment for all your Python dependancies. Run this command from inside the intro-to-mongodb folder.
 
 
-###conda create -n intro-to-mongodb
+### conda create -n intro-to-mongodb
 
 You can then activate this environment by running:
 
-###source activate intro-to-mongodb
+### source activate intro-to-mongodb
 
 Then from inside your notebooks directory you can run the following command to start your Jupyter notebook:
 
 
-###jupyter notebook
+### jupyter notebook
 
 From there, you should be able to point your browser to http://localhost:8888/ to access the Jupyter Notebook interface. Now, any notebooks (ipynb files) that you place in the notebooks directory will appear and be executable in this interface.
 
@@ -60,9 +61,19 @@ To install 3rd party Python modules you'll use the pip command, which is install
 For example, if you wanted to install pymongo you'd do something like the following:
 
 This assumes your mongodb-analytics folder is stored in your home directory
-###cd ~/mongodb-analytics/intro-to-mongodb
-###source activate intro-to-mongodb
-###pip install pymongo
+### cd ~/mongodb-analytics/intro-to-mongodb
+
+### source activate intro-to-mongodb 
+
+### pip install pymongo
 
 After executing the following commands you'll be able to use the pymongo module to connect your Jupyter notebooks to MongoDB!
+
+# Week 2 : Cleaning Data with MongoDB & Query Essentials
+
+## Learning objectives
+
+Cleanse data stored in MongoDB using the Aggregation Framework
+Understand how web applications store and retrieve data stored in MongoDB
+Fetch data by building complex MongoDB queries
 
