@@ -6,10 +6,13 @@ Introduction to MongoDB by MongoDB Inc.
 ## Learning objectives
 
 Create and connect to a MongoDB Atlas cluster from Python
+
 Import CSV data into a MongoDB cluster from the command-line
+
 Use the Aggregation Framework to analyze data stored in MongoDB
 
-##Setting Up Your Course Environment
+
+## Setting Up Your Course Environment
 
 This course is designed to be very hands on. Virtually all of the lectures have resources that can be downloaded so that you can follow along with the instructor. These resources are listed below the lecture video underneath "Downloads".
 
@@ -25,9 +28,13 @@ You'll likely be downloading many files as you progress through the course. To k
 
 
 +-- mongodb-analytics
+
     +-- intro-to-mongodb
+	
         +-- mflix
+		
         +-- notebooks
+		
 The "mongodb-analytics" folder is used to segment the different courses in this specialization. So you can create a folder inside of that called "intro-to-mongodb" for this course's downloadable resources. The notebooks folder is for all of the notebooks and datasets that you download. And finally, there's the the mflix folder which will hold the mflix app that you'll download and install later in the course.
 
 Jupyter Notebooks
@@ -74,6 +81,20 @@ After executing the following commands you'll be able to use the pymongo module 
 ## Learning objectives
 
 Cleanse data stored in MongoDB using the Aggregation Framework
+
 Understand how web applications store and retrieve data stored in MongoDB
+
 Fetch data by building complex MongoDB queries
+
+
+
+# Week 3 : Additional MongoDB Concepts & Basic Charting
+
+## Learning objectives
+
+Use indexes in MongoDB to increase query performance
+
+Build charts from data stored in MongoDB for basic analysis
+
+Query for and graph geospatial data stored in MongoDB
 
